@@ -1,0 +1,25 @@
+.button {
+    width: 335px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+
+    &--active{
+        background-color: #FFA235;
+    }
+
+    &--inactive{
+        background-color: #211C70;
+
+        &:hover{
+        background-color: #FFA235;
+
+        }
+    }
+}
