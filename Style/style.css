@@ -97,6 +97,91 @@
   background-color: #FFA235;
 }
 
+.input {
+  border: none;
+  border-radius: 8px;
+  height: 38px;
+  margin: 0;
+  padding-left: 30px;
+  width: 100%;
+  color: #211c70;
+  background: #f2f2f2;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.input--right {
+  padding-right: 30px;
+  padding-left: 13px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.input::-webkit-input-placeholder {
+  color: rgba(33, 28, 112, 0.43);
+}
+
+.input:-ms-input-placeholder {
+  color: rgba(33, 28, 112, 0.43);
+}
+
+.input::-ms-input-placeholder {
+  color: rgba(33, 28, 112, 0.43);
+}
+
+.input::placeholder {
+  color: rgba(33, 28, 112, 0.43);
+}
+
+.input__container {
+  border-radius: 8px;
+  position: relative;
+  background: #ddd;
+  direction: ltr;
+  width: 215px;
+}
+
+.input__container--big {
+  width: 327px;
+}
+
+.input__searchBar {
+  width: 327px;
+}
+
+.input__img {
+  position: absolute;
+  top: 12px;
+  width: 14px;
+  height: 14px;
+}
+
+.input__img--left {
+  left: 8px;
+}
+
+.input__img--right {
+  right: 8px;
+}
+
+.select {
+  width: 100px;
+  height: 38px;
+  background-color: #F2F2F2;
+  border-radius: 8px;
+  color: #211C70;
+  padding-left: 8px;
+  border: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 .navBar {
   background: #f9f9f9;
   -webkit-box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);

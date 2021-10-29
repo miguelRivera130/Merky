@@ -1,3 +1,62 @@
 .input{
+    border: none;
+    border-radius: 8px;
+    height: 38px;
+    margin: 0;
+    padding-left: 30px;
+    width: 100%;
+    color: #211c70;
+
+    background: #f2f2f2;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    box-sizing: border-box;
+
+
+    &--right{
+        padding-right: 30px;
+        padding-left: 13px;
+        box-sizing: border-box;
+
+        
+    }
+
+    &::placeholder {
+        color: rgba(33, 28, 112, 0.43);
+    }
+
+    &__container {
+        border-radius: 8px;
+        position: relative;
+        background: #ddd;
+        direction: ltr;
+        width: 215px;
+
+        &--big{
+        width: 327px;
+        }
+    }
+
+    &__searchBar {
+        width: 327px;
+    }
+
+    &__img {
+        position: absolute;
+        top: 12px;
+        width: 14px;
+        height: 14px;
+
+        &--left{
+            left: 8px;
+        }
+
+        &--right{
+        right: 8px;
+
+        }
+    }
     
 }
