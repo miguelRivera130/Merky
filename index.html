@@ -7,15 +7,35 @@
     <link rel="stylesheet" href="./Style/style.css">
     <title>Merky</title>
 </head>
-<body>
 
+<body>
     <div class="card">
-        <img src="">
+        <div class="card__list">
+            <input type="checkbox" id="list" name="list"> 
+            <label for="list">Lista para la semana</label>
+            <p>
+                Nov.24
+            </p>
+        </div>
     </div>
-    
+    <br>
+    <div class="card">
+        <div class="card__list--add"> 
+           <button id="add" name="add">   
+           </button> 
+           <label for="add">Agregar nueva lista</label>
+
+        </div>
+    </div>
+    <br>
+    <div class="navBar">
+        <button class="navBar__home"></button>
+        <button class="navBar__list"></button>
+        <button class="navBar__community"></button>
+        <button class="navBar__profile"></button>
+    </div>
+    <br>
     <button class="button button--active">Agregar producto</button>
     <button class="button button--inactive">Agregar producto</button>
-
-    
 </body>
 </html>
