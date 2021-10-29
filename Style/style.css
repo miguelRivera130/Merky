@@ -65,7 +65,7 @@
 }
 
 .card__list--add button {
-  background: url("../images/plus.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/plus.svg") no-repeat scroll 0 0 transparent;
   border: #F9F9F9;
   cursor: pointer;
   height: 14px;
@@ -114,7 +114,7 @@
 }
 
 .navBar__home {
-  background: url("../images/Casa.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Casa.svg") no-repeat scroll 0 0 transparent;
   border: #F9F9F9;
   cursor: pointer;
   height: 20px;
@@ -124,11 +124,11 @@
 }
 
 .navBar__home:focus {
-  background: url("../images/Casa_a.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Casa_a.svg") no-repeat scroll 0 0 transparent;
 }
 
 .navBar__list {
-  background: url("../images/Lista.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Lista.svg") no-repeat scroll 0 0 transparent;
   border: #F9F9F9;
   cursor: pointer;
   height: 20px;
@@ -138,11 +138,11 @@
 }
 
 .navBar__list:focus {
-  background: url("../images/Lista_a.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Lista_a.svg") no-repeat scroll 0 0 transparent;
 }
 
 .navBar__community {
-  background: url("../images/Comunidad.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Comunidad.svg") no-repeat scroll 0 0 transparent;
   border: #F9F9F9;
   cursor: pointer;
   height: 20px;
@@ -152,11 +152,11 @@
 }
 
 .navBar__community:focus {
-  background: url("../images/Comunidad_a.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Comunidad_a.svg") no-repeat scroll 0 0 transparent;
 }
 
 .navBar__profile {
-  background: url("../images/Perfil.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Perfil.svg") no-repeat scroll 0 0 transparent;
   border: #F9F9F9;
   cursor: pointer;
   height: 20px;
@@ -166,6 +166,6 @@
 }
 
 .navBar__profile:focus {
-  background: url("../images/Perfil_a.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Perfil_a.svg") no-repeat scroll 0 0 transparent;
 }
 /*# sourceMappingURL=style.css.map */
