@@ -5,7 +5,7 @@
   -webkit-box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);
           box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);
   border-radius: 8px;
-  font-family: 'Nunito';
+  font-family: "Nunito";
   height: 57px;
   width: 327px;
 }
@@ -32,26 +32,26 @@
   outline: none;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
-  background-color: #F9F9F9;
-  border: 1px solid #FFA235;
+  background-color: #f9f9f9;
+  border: 1px solid #ffa235;
   cursor: pointer;
 }
 
 .card__list input:checked {
-  border: 1px solid #FFA235;
-  background-color: #FFA235;
+  border: 1px solid #ffa235;
+  background-color: #ffa235;
 }
 
 .card__list p {
   font-size: 14;
-  color: #9F9F9F;
+  color: #9f9f9f;
   padding-left: 56px;
 }
 
 .card label {
   font-weight: bold;
   font-size: 16;
-  color: #211C70;
+  color: #211c70;
   padding-left: 16px;
   min-width: -webkit-fit-content;
   min-width: -moz-fit-content;
@@ -65,8 +65,8 @@
 }
 
 .card__list--add button {
-  background: url("../images/plus.png") no-repeat scroll 0 0 transparent;
-  border: #F9F9F9;
+  background: url("../images/plus.svg") no-repeat scroll 0 0 transparent;
+  border: #f9f9f9;
   cursor: pointer;
   height: 14px;
   padding-bottom: 2px;
@@ -163,6 +163,90 @@
 .button__popup--inactive:active {
   background: #1d1861;
 }
+.input {
+  border: none;
+  border-radius: 8px;
+  height: 38px;
+  margin: 0;
+  padding-left: 30px;
+  width: 100%;
+  color: #211c70;
+  background: #f2f2f2;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.input--right {
+  padding-right: 30px;
+  padding-left: 13px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.input::-webkit-input-placeholder {
+  color: rgba(33, 28, 112, 0.43);
+}
+
+.input:-ms-input-placeholder {
+  color: rgba(33, 28, 112, 0.43);
+}
+
+.input::-ms-input-placeholder {
+  color: rgba(33, 28, 112, 0.43);
+}
+
+.input::placeholder {
+  color: rgba(33, 28, 112, 0.43);
+}
+
+.input__container {
+  border-radius: 8px;
+  position: relative;
+  background: #ddd;
+  direction: ltr;
+  width: 215px;
+}
+
+.input__container--big {
+  width: 327px;
+}
+
+.input__searchBar {
+  width: 327px;
+}
+
+.input__img {
+  position: absolute;
+  top: 12px;
+  width: 14px;
+  height: 14px;
+}
+
+.input__img--left {
+  left: 8px;
+}
+
+.input__img--right {
+  right: 8px;
+}
+
+.select {
+  width: 100px;
+  height: 38px;
+  background-color: #F2F2F2;
+  border-radius: 8px;
+  color: #211C70;
+  padding-left: 8px;
+  border: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
 
 .navBar {
   background: #f9f9f9;
@@ -181,7 +265,7 @@
 }
 
 .navBar__home {
-  background: url("../images/Casa.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Casa.svg") no-repeat scroll 0 0 transparent;
   border: #F9F9F9;
   cursor: pointer;
   height: 20px;
@@ -191,11 +275,11 @@
 }
 
 .navBar__home:focus {
-  background: url("../images/Casa_a.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Casa_a.svg") no-repeat scroll 0 0 transparent;
 }
 
 .navBar__list {
-  background: url("../images/Lista.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Lista.svg") no-repeat scroll 0 0 transparent;
   border: #F9F9F9;
   cursor: pointer;
   height: 20px;
@@ -205,11 +289,11 @@
 }
 
 .navBar__list:focus {
-  background: url("../images/Lista_a.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Lista_a.svg") no-repeat scroll 0 0 transparent;
 }
 
 .navBar__community {
-  background: url("../images/Comunidad.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Comunidad.svg") no-repeat scroll 0 0 transparent;
   border: #F9F9F9;
   cursor: pointer;
   height: 20px;
@@ -219,11 +303,11 @@
 }
 
 .navBar__community:focus {
-  background: url("../images/Comunidad_a.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Comunidad_a.svg") no-repeat scroll 0 0 transparent;
 }
 
 .navBar__profile {
-  background: url("../images/Perfil.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Perfil.svg") no-repeat scroll 0 0 transparent;
   border: #F9F9F9;
   cursor: pointer;
   height: 20px;
@@ -233,7 +317,42 @@
 }
 
 .navBar__profile:focus {
-  background: url("../images/Perfil_a.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/Perfil_a.svg") no-repeat scroll 0 0 transparent;
+}
+
+.card__time {
+  font-family: "Nunito";
+  border-radius: 8px;
+  width: 327px;
+  background-color: #E0E0E9;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #211C70;
+}
+
+.card__time h1 {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1em;
 }
 
 .route {

@@ -9,7 +9,7 @@
     align-items: center;
 
     &__home {
-        background: url("../images/Casa.png") no-repeat scroll 0 0 transparent;
+        background: url("../images/Casa.svg") no-repeat scroll 0 0 transparent;
         border: #F9F9F9;
         cursor: pointer;
         height: 20px;
@@ -17,12 +17,12 @@
         width: 27px;
         margin-left: 45px;
         &:focus {
-            background: url("../images/Casa_a.png") no-repeat scroll 0 0 transparent; 
+            background: url("../images/Casa_a.svg") no-repeat scroll 0 0 transparent; 
         }
     }
 
     &__list {
-        background: url("../images/Lista.png") no-repeat scroll 0 0 transparent;
+        background: url("../images/Lista.svg") no-repeat scroll 0 0 transparent;
             border: #F9F9F9;
             cursor: pointer;
             height: 20px;
@@ -30,12 +30,12 @@
             width: 27px;
             margin-left: 40px;
             &:focus {
-                background: url("../images/Lista_a.png") no-repeat scroll 0 0 transparent; 
+                background: url("../images/Lista_a.svg") no-repeat scroll 0 0 transparent; 
             }
     }
 
     &__community {
-        background: url("../images/Comunidad.png") no-repeat scroll 0 0 transparent;
+        background: url("../images/Comunidad.svg") no-repeat scroll 0 0 transparent;
             border: #F9F9F9;
             cursor: pointer;
             height: 20px;
@@ -43,12 +43,12 @@
             width: 27px;
             margin-left: 40px;
             &:focus {
-                background: url("../images/Comunidad_a.png") no-repeat scroll 0 0 transparent; 
+                background: url("../images/Comunidad_a.svg") no-repeat scroll 0 0 transparent; 
             }
     }
 
     &__profile {
-        background: url("../images/Perfil.png") no-repeat scroll 0 0 transparent;
+        background: url("../images/Perfil.svg") no-repeat scroll 0 0 transparent;
             border: #F9F9F9;
             cursor: pointer;
             height: 20px;
@@ -56,7 +56,7 @@
             width: 27px;
             margin-left: 40px;
             &:focus {
-                background: url("../images/Perfil_a.png") no-repeat scroll 0 0 transparent; 
+                background: url("../images/Perfil_a.svg") no-repeat scroll 0 0 transparent; 
             }
     }
 

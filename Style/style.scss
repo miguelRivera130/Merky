@@ -13,6 +13,14 @@
 @import 'statusBar';
 @import 'item';
 @import 'route';
+@import 'card-time'; 
+
+body{
+  display: flex;
+  flex-direction: column;
+  gap: 1em; 
+}
+
 
 
 
