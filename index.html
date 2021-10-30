@@ -55,32 +55,37 @@
     </div>
     <button class="button button--active">Agregar producto</button>
     <button class="button button--inactive">Agregar producto</button>
-
-    <button class="button button__popup--active">Agregar producto</button>
-    <button class="button button__popup--inactive">Agregar producto</button>
-
-    <div class="card--small">
-        <div class="route">
-            <div class="route__box">
-                <div class="route__img"><img src="/images/fanta.png"></div>
-                <div class="route__info"> 
-                    <h1 class="route__number">1</h1>
-                    <h2 class="route__name">Fanta - 350ml</h2>
-                 </div>
-            </div>
-            <label for="route"> 
-                <button id =" route__button"class="button button__popup--checkbox">   <p id="message">Recoger</p> <input class="checkbox__route" type="checkbox" id="route__checkbox" name="route" onclick ="isChecked()"></button>
-                 </label>
-        </div>
-    </div>
-<script src="script/index.js"></script>
-
     <div class="card__time">
         <h1>00:35:43</h1>
         <span>
             Mejor:
             <b>00:25:10</b>
         </span>
+    </div>
+
+    <div class="cardProduct">
+        <div class="cardProduct__container">
+            <div class="cardProduct__img">
+                <img class="cardProduct__size" src="./images/huevos.png">
+            </div>
+            <div class="cardProduct__info">
+                <div class="cardProduct__title">
+                    <p class="cardProduct__name"> <strong> Huevos Kike AAA </strong></p>
+                    <p class="cardProduct__weight"> 500g </p>  
+                </div>
+                <div class="cardProduct__starContainer">
+                    <img class="cardProduct__star" src="./images/star.svg">
+                    <img class="cardProduct__star" src="./images/star.svg"> 
+                    <img class="cardProduct__star" src="./images/star.svg">
+                    <img class="cardProduct__star" src="./images/star.svg">
+                    <img class="cardProduct__star" src="./images/star.svg">
+                </div>
+                <p class="cardProduct__price"> $12.000 </p>  
+            </div>
+
+        </div>
+
+
     </div>
 
 </body>

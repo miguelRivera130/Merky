@@ -83,43 +83,6 @@
   font-weight: bold;
   font-size: 14px;
   color: #ffffff;
-  position: relative;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.button:after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.button:before {
-  font-family: 'FontAwesome';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  position: relative;
-  -webkit-font-smoothing: antialiased;
-}
-
-.button:active {
-  top: 2px;
-}
-
-.button:before {
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  line-height: 3;
-  font-size: 140%;
-  width: 60px;
 }
 
 .button--active {
@@ -134,35 +97,6 @@
   background-color: #FFA235;
 }
 
-.button__popup--active {
-  width: 224px;
-  background-color: #FFA235;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-}
-
-.button__popup--active:hover {
-  background: #e69941;
-}
-
-.button__popup--active:active {
-  background: #e69941;
-}
-
-.button__popup--inactive {
-  width: 224px;
-  background-color: #211C70;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-}
-
-.button__popup--inactive:hover {
-  background: #1d1861;
-}
-
-.button__popup--inactive:active {
-  background: #1d1861;
-}
 .input {
   border: none;
   border-radius: 8px;
@@ -344,6 +278,62 @@
   margin: 0;
 }
 
+.cardProduct {
+  width: 327px;
+  height: 92px;
+  background-color: #F9F9F9;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);
+          box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);
+}
+
+.cardProduct__container {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cardProduct__size {
+  width: 95px;
+  height: 65px;
+}
+
+.cardProduct__info {
+  margin-left: 12px;
+}
+
+.cardProduct__name {
+  margin-top: 5px;
+  margin: 0;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #211C70;
+}
+
+.cardProduct__weight {
+  margin: 0;
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 12px;
+  color: #211C70;
+}
+
+.cardProduct__star {
+  width: 15px;
+  height: 15px;
+}
+
+.cardProduct__price {
+  margin: 0;
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 12px;
+  color: #FFA235;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -353,151 +343,5 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 1em;
-}
-
-.route {
-  margin: 0;
-  padding: 0;
-  width: 224px;
-  height: 164px;
-  position: relative;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.route:after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.route:before {
-  font-family: 'FontAwesome';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  position: relative;
-  -webkit-font-smoothing: antialiased;
-}
-
-.route:active {
-  top: 2px;
-}
-
-.route:before {
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  line-height: 3;
-  font-size: 140%;
-  width: 60px;
-}
-
-.route__box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.route__img {
-  width: 100px;
-  height: 129px;
-  background-color: #FFDBB0;
-}
-
-.route__img img {
-  width: 100%;
-  height: auto;
-}
-
-@supports ((-o-object-fit: cover) or (object-fit: cover)) {
-  .route__img img {
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: center center;
-       object-position: center center;
-  }
-}
-
-.route__info {
-  padding: 0;
-  margin: 0;
-  width: 124px;
-  display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.route__info h1 {
-  font-family: nunito;
-  font-size: 25px;
-  margin-left: 8px;
-  color: #211C70;
-}
-
-.route__info h2 {
-  font-family: nunito;
-  margin-left: 8px;
-  font-size: 16px;
-  color: #211C70;
-}
-
-.route .button__popup--checkbox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 224px;
-  height: 35px;
-  background-color: #FFA235;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  padding: 0;
-}
-
-.route .button__popup--checkbox:hover {
-  background: #e69941;
-}
-
-.route .button__popup--checkbox:active {
-  background: #e69941;
-}
-
-.route .button__popup--checkbox input {
-  height: 16px;
-  width: 16px;
-  white-space: nowrap;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -o-appearance: none;
-  appearance: none;
-  border-radius: 4px;
-  outline: none;
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-  background-color: #F9F9F9;
-  border: 1px solid #FFA235;
-  cursor: pointer;
-}
-
-.route .button__popup--checkbox input:checked {
-  border: 1px solid #FFA235;
-  background-color: #FFA235;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,59 @@
+.cardProduct{
+
+    width:327px;
+    height:92px;
+    background-color: #F9F9F9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);
+
+&__container{
+    padding: 10px;
+    display: flex;
+}
+
+&__size{
+    width:95px;
+    height:65px;
+}
+
+&__info{
+    margin-left:12px;  
+}
+
+&__name{
+    margin-top:5px; 
+    margin: 0;
+    font-family: Nunito;    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #211C70;
+}
+
+
+&__weight{
+    margin: 0;
+    font-family: Nunito;    
+    font-style: normal;
+    font-size: 12px;
+    color: #211C70;
+    }
+
+
+&__star{
+    width:15px;
+    height:15px;
+}
+
+&__price{
+    margin: 0;
+    font-family: Nunito;    
+    font-style: normal;
+    font-size: 12px;
+    color: #FFA235;
+}
+
+
+
+
+}
