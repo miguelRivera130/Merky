@@ -285,6 +285,7 @@
   border-radius: 8px;
   -webkit-box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);
           box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);
+  position: relative;
 }
 
 .cardProduct__container {
@@ -332,6 +333,123 @@
   font-style: normal;
   font-size: 12px;
   color: #FFA235;
+}
+
+.cardProduct--addLink {
+  background-color: #E0E0E0;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cardImg {
+  border-radius: 8px;
+  position: relative;
+  color: white;
+  font-family: Nunito;
+  -webkit-box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);
+          box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);
+}
+
+.cardImg--title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+
+.cardImg__downleft {
+  bottom: 10px;
+  left: 15px;
+  position: absolute;
+}
+
+.cardImg__downright {
+  bottom: 10px;
+  right: 15px;
+  position: absolute;
+}
+
+.cardImg--subtile {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.cardImg--subtile1 {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cardImg__categorylink {
+  background: url("../images/bebidas.png");
+  background-size: contain;
+  width: 327px;
+  height: 92px;
+}
+
+.cardImg__retaillink {
+  background: url("../images/exito.png");
+  background-size: cover;
+  width: 327px;
+  height: 150px;
+}
+
+.cardNewProduct {
+  width: 327px;
+  height: 92px;
+  background-color: #FFDBB0;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);
+          box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);
+}
+
+.cardNewProduct__container {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cardNewProduct__size {
+  width: 20px;
+  height: 20px;
+}
+
+.cardNewProduct__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  width: 120px;
+  height: 50px;
+}
+
+.cardNewProduct__text {
+  margin-top: 30px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #211C70;
 }
 
 body {
