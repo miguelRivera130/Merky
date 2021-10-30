@@ -1,66 +1,65 @@
-
 .card {
-    background: #f9f9f9;
-    box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);
-    border-radius: 8px;
-    font-family: 'Nunito';
-    height: 57px;
-    width: 327px;
-    
-    &__list{
+  background: #f9f9f9;
+  box-shadow: 0px 4px 13px rgba(63, 63, 63, 0.25);
+  border-radius: 8px;
+  font-family: "Nunito";
+  height: 57px;
+  width: 327px;
 
-        display: flex;
-        align-items: center;
-        padding-left: 16px;
-        
-        input {
-            height: 16px;
-            width: 16px;
-            white-space: nowrap;
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            -o-appearance: none;
-            appearance: none;
-            border-radius: 4px;
-            outline: none;
-            transition-duration: 0.3s;
-            background-color: #F9F9F9;
-            border: 1px solid #FFA235;
-            cursor: pointer;
-        }
-
-        input:checked {
-            border: 1px solid #FFA235;
-            background-color: #FFA235;
-        }
-
-        p {
-            font-size: 14;
-            color: #9F9F9F;
-            padding-left: 56px;
-        }
+  &__list {
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    input {
+      height: 16px;
+      width: 16px;
+      white-space: nowrap;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -o-appearance: none;
+      appearance: none;
+      border-radius: 4px;
+      outline: none;
+      transition-duration: 0.3s;
+      background-color: #f9f9f9;
+      border: 1px solid #ffa235;
+      cursor: pointer;
+    }
+    input:checked {
+      border: 1px solid #ffa235;
+      background-color: #ffa235;
     }
 
-    label {
-        font-weight: bold;
-        font-size: 16;
-        color: #211C70;
-        padding-left: 16px;
-        min-width: fit-content;
+    p {
+      font-size: 14;
+      color: #9f9f9f;
+      padding-left: 56px;
     }
+  }
 
-    &__list--add{
-        padding-left: 22px;
-        padding-top: 20px;
-        display: block;
+  label {
+    font-weight: bold;
+    font-size: 16;
+    color: #211c70;
+    padding-left: 16px;
+    min-width: fit-content;
+  }
 
-        button {
-            background: url("../images/plus.svg") no-repeat scroll 0 0 transparent;
-            border: #F9F9F9;
-            cursor: pointer;
-            height: 14px;
-            padding-bottom: 2px;
-            width: 14px;
-        }
+  &__list--add {
+    padding-left: 22px;
+    padding-top: 20px;
+    display: block;
+
+    button {
+      background: url("../images/plus.svg") no-repeat scroll 0 0 transparent;
+      border: #f9f9f9;
+      cursor: pointer;
+      height: 14px;
+      padding-bottom: 2px;
+      width: 14px;
     }
+  }
+
+
+  
 }

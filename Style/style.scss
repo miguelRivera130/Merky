@@ -12,6 +12,13 @@
 @import 'popUp';
 @import 'statusBar';
 @import 'item';
+@import 'card-time'; 
+
+body{
+  display: flex;
+  flex-direction: column;
+  gap: 1em; 
+}
 
 
 
