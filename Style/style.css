@@ -254,6 +254,46 @@
   background: url("../images/Perfil_a.svg") no-repeat scroll 0 0 transparent;
 }
 
+.popUp {
+  width: 258px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.popUp__title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #211c70;
+}
+
+.popUp__element {
+  text-align: center;
+  color: #ffa235;
+  margin: 0;
+}
+
+.button__popUp {
+  width: 258px;
+  height: 38px;
+  left: 59px;
+  top: 277px;
+  color: #ffffff;
+  background: #211c70;
+  border-radius: 0px 0px 8px 8px;
+}
+
 .card__time {
   font-family: "Nunito";
   border-radius: 8px;
@@ -450,6 +490,62 @@
   font-weight: bold;
   font-size: 14px;
   color: #211C70;
+}
+
+.radioButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 8px;
+  background-color: #F0EFEF;
+  border-radius: 8px;
+  color: #211C70;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 8px;
+}
+
+.radioButton__input {
+  display: none;
+}
+
+.radioButton__input:checked ~ .radioButton__checkmark {
+  border: 2px solid #ffa235;
+}
+
+.radioButton__input:checked ~ .radioButton__checkmark:after {
+  display: block;
+}
+
+.radioButton__checkmark {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  background-color: transparent;
+  border: 2px solid #211c70;
+}
+
+.radioButton__checkmark:after {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  display: none;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ffa235;
+}
+
+.radioButton__label {
+  margin-left: 6px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
 }
 
 body {
