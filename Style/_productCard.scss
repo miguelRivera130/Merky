@@ -1,0 +1,35 @@
+.product-card{
+    width : 98px;
+    min-height : 133px;
+    background-color: #fd9c89;
+    border-radius: 8px;
+    font-family: Nunito;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        max-height: 90px;
+        object-fit: cover;
+    }
+
+    &__footer{
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        color: #211C70;
+        
+        h1{
+            font-size: 12px;
+            margin: 0;
+        }
+
+        span{
+            font-size: 8px;
+            font-weight: 100;
+            margin: 0;
+        }
+    }
+}
